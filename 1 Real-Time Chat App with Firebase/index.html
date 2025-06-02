@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sohbet Uygulaması</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="chat-container">
+        <h2>Sohbet</h2>
+        <div id="chat-box"></div>
+        <input type="text" id="username" placeholder="Adınız" />
+        <input type="text" id="message" placeholder="Mesajınız" />
+        <button onclick="sendMessage()">Gönder</button>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.22.2/firebase-database.js"></script>
+    <script src="firebase-config.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

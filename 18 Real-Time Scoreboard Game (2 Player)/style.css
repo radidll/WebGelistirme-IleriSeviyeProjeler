@@ -1,0 +1,74 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background: #f4f4f4;
+    margin: 0;
+    padding: 30px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.player h2 {
+    margin-bottom: 10px;
+}
+
+.player p {
+    font-size: 40px;
+    margin: 10px 0;
+    color: #007bff;
+}
+
+.player button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    background: #28a745;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.player button:hover {
+    background: #218838;
+}
+
+.control {
+    margin-top: 20px;
+}
+
+#resetBtn {
+    background: #dc3545;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#resetBtn:hover {
+    background: #c82333;
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+}

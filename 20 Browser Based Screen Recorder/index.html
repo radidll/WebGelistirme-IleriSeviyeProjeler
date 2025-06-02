@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>📹 Ekran Kaydedici</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>📹 Tarayıcı Ekran Kaydedici</h1>
+
+        <div class="controls">
+            <button id="startBtn">Kayda Başla</button>
+            <button id="stopBtn" disabled>Kaydı Durdur</button>
+        </div>
+
+        <video id="preview" controls></video>
+        <a id="downloadLink" class="hidden" download="ekran-kaydi.webm">Kaydı İndir</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

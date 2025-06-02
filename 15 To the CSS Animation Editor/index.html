@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Animasyon Editörü</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>CSS Animasyon Editörü</h1>
+
+        <div class="controls">
+            <label>Animasyon Adı:
+        <input type="text" id="animation-name" value="myAnimation" />
+      </label>
+
+            <label>Süre (saniye):
+        <input type="number" id="duration" value="2" min="0.1" step="0.1" />
+      </label>
+
+            <label>Tekrar:
+        <select id="iteration-count">
+          <option value="infinite">Sonsuz</option>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </select>
+      </label>
+
+            <label>Zamanlama Fonksiyonu:
+        <select id="timing-function">
+          <option value="ease">ease</option>
+          <option value="linear">linear</option>
+          <option value="ease-in">ease-in</option>
+          <option value="ease-out">ease-out</option>
+          <option value="ease-in-out">ease-in-out</option>
+        </select>
+      </label>
+
+            <label>Animasyon Tanımı:
+        <textarea id="keyframes" rows="6">
+0% { transform: rotate(0deg); }
+100% { transform: rotate(360deg); }
+        </textarea>
+      </label>
+
+            <button id="apply-animation">Animasyonu Uygula</button>
+        </div>
+
+        <div class="preview-area">
+            <div id="animated-box">🔄</div>
+        </div>
+
+        <div class="output">
+            <h2>CSS Çıktısı</h2>
+            <pre><code id="css-output"></code></pre>
+            <button id="copy-css">CSS Kopyala</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

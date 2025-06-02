@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF Oluşturucu Form</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>PDF Formu</h1>
+        <form id="pdfForm">
+            <input type="text" id="name" placeholder="Ad Soyad" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <textarea id="message" placeholder="Mesajınız" required></textarea>
+            <button type="submit">PDF Oluştur</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

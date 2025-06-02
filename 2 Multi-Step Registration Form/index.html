@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Çok Adımlı Kayıt Formu</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="form-container">
+        <form id="multiStepForm">
+            <div class="form-step active">
+                <h2>Adım 1</h2>
+                <input type="text" placeholder="Adınız" required />
+                <input type="text" placeholder="Soyadınız" required />
+                <button type="button" onclick="nextStep()">İleri</button>
+            </div>
+
+            <div class="form-step">
+                <h2>Adım 2</h2>
+                <input type="email" placeholder="Email" required />
+                <input type="password" placeholder="Parola" required />
+                <button type="button" onclick="prevStep()">Geri</button>
+                <button type="button" onclick="nextStep()">İleri</button>
+            </div>
+
+            <div class="form-step">
+                <h2>Adım 3</h2>
+                <p>Bilgileriniz gönderilmeye hazır!</p>
+                <button type="button" onclick="prevStep()">Geri</button>
+                <button type="submit">Gönder</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

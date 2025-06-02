@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Etkileşimli Grafik Çizici</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h2>Grafik Oluşturucu</h2>
+        <input type="text" id="label" placeholder="Etiket girin (örneğin: Ocak)" />
+        <input type="number" id="value" placeholder="Değer girin (örneğin: 50)" />
+        <button onclick="addData()">Ekle</button>
+
+        <canvas id="myChart"></canvas>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>

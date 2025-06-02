@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2 Oyunculu Skor Oyunu</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>🎮 2 Oyunculu Skor Oyunu</h1>
+
+        <div class="scoreboard">
+            <div class="player">
+                <h2>Oyuncu 1</h2>
+                <p id="score1">0</p>
+                <button id="btn1">+1</button>
+            </div>
+
+            <div class="player">
+                <h2>Oyuncu 2</h2>
+                <p id="score2">0</p>
+                <button id="btn2">+1</button>
+            </div>
+        </div>
+
+        <div class="control">
+            <button id="resetBtn">Sıfırla</button>
+            <p>
+                <label for="winningScore">Hedef Skor:</label>
+                <select id="winningScore">
+      <option value="5">5</option>
+      <option value="10">10</option>
+      <option value="15">15</option>
+    </select>
+            </p>
+        </div>
+
+
+        <script src="script.js"></script>
+</body>
+
+</html>

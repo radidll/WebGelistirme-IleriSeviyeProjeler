@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Görsel Crop Aracı</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/cropperjs@1.5.13/dist/cropper.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>🖼️ Görsel Crop/Aracı</h1>
+
+        <form aria-label="Görsel Yükleme Formu">
+            <label for="imageInput">Bir görsel seçin:</label><br>
+            <input type="file" id="imageInput" name="imageInput" accept="image/*">
+        </form>
+
+        <div class="image-container">
+            <img id="image" alt="Yüklenen görsel" class="hidden">
+        </div>
+
+        <button id="cropBtn">Kırp ve İndir</button>
+    </div>
+
+    <script src="https://unpkg.com/cropperjs@1.5.13/dist/cropper.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>

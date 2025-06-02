@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#search {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+}
+
+#contact-list {
+    list-style: none;
+    padding: 0;
+}
+
+#contact-list li {
+    padding: 12px;
+    border-bottom: 1px solid #eee;
+    font-size: 16px;
+}
+
+#contact-list li:last-child {
+    border-bottom: none;
+}

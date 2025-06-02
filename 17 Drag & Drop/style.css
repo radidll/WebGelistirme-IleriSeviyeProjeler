@@ -1,0 +1,56 @@
+style.cssbody {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    margin: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+#drop-area {
+    border: 3px dashed #007bff;
+    padding: 30px;
+    border-radius: 10px;
+    background: #e9f2ff;
+    cursor: pointer;
+}
+
+#drop-area.hover {
+    background: #d0e7ff;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #0056b3;
+}
+
+#file-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+#file-list li {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}

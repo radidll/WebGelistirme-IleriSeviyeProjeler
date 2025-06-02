@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.editor-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.inputs {
+    display: flex;
+    height: 50%;
+}
+
+textarea {
+    flex: 1;
+    padding: 10px;
+    font-family: monospace;
+    font-size: 14px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+
+iframe {
+    flex: 1;
+    border: none;
+}

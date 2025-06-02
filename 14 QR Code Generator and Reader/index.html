@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>QR Kod Oluşturucu ve Okuyucu</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+
+        <h1>QR Kod Oluşturucu ve Okuyucu</h1>
+
+        <section id="generator">
+            <h2>QR Kod Oluştur</h2>
+            <input type="text" id="qr-text" placeholder="Metin veya URL girin" />
+            <button id="generate-btn">Oluştur</button>
+            <div id="qrcode"></div>
+        </section>
+
+        <hr />
+
+        <section id="reader">
+            <h2>QR Kod Tara</h2>
+            <button id="start-scan-btn">Taramayı Başlat</button>
+            <button id="stop-scan-btn" disabled>Taramayı Durdur</button>
+            <div id="reader-container"></div>
+            <p id="scan-result"></p>
+        </section>
+
+    </div>
+
+    <script src="js/qrcode.min.js"></script>
+    <script src="js/html5-qrcode.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
