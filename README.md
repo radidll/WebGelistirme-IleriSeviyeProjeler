@@ -1,104 +1,109 @@
-# WebGelistirme-IleriSeviyeProjeler
+🌐 Advanced Frontend Projects – Level Up Your Skills
 
-# 🚀 Gelişmiş 20 Frontend Projesi (HTML, CSS, JS)
+A curated collection of 20 advanced frontend projects designed to boost your JavaScript expertise while mastering modern Web APIs. 
 
-Bu projeler, ileri düzey JavaScript becerileriyle birlikte modern web API'lerinin etkin kullanımını öğretmeyi amaçlar. Her biri, frontend geliştirici olarak profesyonel düzeye ulaşmak isteyenler için özel olarak seçilmiştir.
+These projects are tailored for developers aiming to build professional-grade, portfolio-ready applications.
 
----
+🚀 Project List
+Real-time Chat Application (Firebase)
+A multi-user chat system with instant message syncing.
+Tech Stack: HTML, CSS, JavaScript, Firebase (Firestore, Auth)
 
+Multi-step Registration Form
+A dynamic, multi-stage form to improve user onboarding flows.
+Tech Stack: HTML, CSS, JavaScript
 
+Interactive Chart Drawer (Chart.js)
+Convert user input data into visually appealing charts.
+Tech Stack: HTML, CSS, JavaScript, Chart.js
 
-1. **Gerçek Zamanlı Sohbet Uygulaması / Real-time Chat App (Firebase)**  
-   Kullanıcıların aynı anda sohbet edebileceği, mesajların anlık olarak aktarıldığı bir sistem.  
-   _Teknolojiler_: HTML, CSS, JavaScript, Firebase (Firestore, Auth)
+In-Browser Code Editor
+A mini IDE that allows users to write and preview HTML/CSS/JS live.
+Tech Stack: HTML, CSS, JavaScript, iframe
 
-2. **Çok Adımlı Kayıt Formu / Multi-step Registration Form**  
-   Kullanıcıyı birden fazla adımdan oluşan dinamik bir form arayüzüyle kaydeden sistem.  
-   _Teknolojiler_: HTML, CSS, JavaScript
+PDF Generator Form
+Automatically generate downloadable PDFs from user-submitted data.
+Tech Stack: HTML, CSS, JavaScript, jsPDF
 
-3. **Etkileşimli Grafik Çizici / Interactive Chart Drawer (Chart.js)**  
-   Verileri grafiksel olarak göstermek için kullanıcı girdilerini kullanan uygulama.  
-   _Teknolojiler_: HTML, CSS, JavaScript, Chart.js
+Voice Command App (SpeechRecognition API)
+Execute actions on your website via voice commands.
+Tech Stack: HTML, CSS, JavaScript, Web Speech API
 
-4. **Kod Editörü / Code Editor (with HTML/CSS/JS Output)**  
-   Tarayıcıda çalışan mini bir IDE: kullanıcı kod yazdıkça sonucu canlı görebilir.  
-   _Teknolojiler_: HTML, CSS, JavaScript, iframe
+Browser-based Game (e.g., Flappy Bird)
+A fully interactive arcade-style game made with Canvas.
+Tech Stack: HTML, CSS, JavaScript, Canvas API
 
-5. **PDF Oluşturucu Form / PDF Generator Form**  
-   Form verilerini PDF formatına dönüştüren uygulama.  
-   _Teknolojiler_: HTML, CSS, JavaScript, jsPDF
+Font Styling Editor
+A live editor where users can modify text styling dynamically.
+Tech Stack: HTML, CSS, JavaScript
 
-6. **Sesli Komut Sistemi / Voice Command App (SpeechRecognition API)**  
-   Kullanıcının sesli komutlarını tanıyıp aksiyon alan web uygulaması.  
-   _Teknolojiler_: HTML, CSS, JavaScript, Web Speech API
+Image Crop Tool
+Upload, crop, and export images directly in the browser.
+Tech Stack: HTML, CSS, JavaScript, Canvas API
 
-7. **Web Tabanlı Oyun / Web-based Game (e.g., Flappy Bird)**  
-   JavaScript ile oluşturulmuş arcade tarzı bir tarayıcı oyunu.  
-   _Teknolojiler_: HTML, CSS, JavaScript, Canvas API
+AI-powered Chatbot (Frontend-only)
+Predefined or AI API-driven chatbot interface.
+Tech Stack: HTML, CSS, JavaScript (optional: OpenAI API)
 
-8. **Yazı Tipi Düzenleyici / Font Styler App**  
-   Kullanıcının metin biçimlendirmesini (font, boyut, kalınlık vb.) değiştirebildiği editör.  
-   _Teknolojiler_: HTML, CSS, JavaScript
+Multilingual Website
+Dynamically switch website content between multiple languages.
+Tech Stack: HTML, CSS, JavaScript, JSON (translation files)
 
-9. **Görsel Kırpma Aracı / Image Crop Tool**  
-   Yüklenen görselleri belirlenen alanlarda kırpma işlevi sunar.  
-   _Teknolojiler_: HTML, CSS, JavaScript, Canvas API
+Offline Note-taking App (PWA)
+Create, edit, and store notes even when offline.
+Tech Stack: HTML, CSS, JavaScript, LocalStorage, PWA
 
-10. **Yapay Zekalı Chatbot / AI Chatbot (Frontend Only)**  
-   Önceden tanımlı cevaplara veya AI API'lerine bağlı çalışan bir chatbot arayüzü.  
-   _Teknolojiler_: HTML, CSS, JavaScript (opsiyonel: OpenAI API)
+Interactive Quiz App (Timed)
+A timed question/answer application with scoring logic.
+Tech Stack: HTML, CSS, JavaScript
 
-11. **Çoklu Dil Destekli Site / Multilingual Website**  
-   Kullanıcının seçtiği dile göre içeriği değiştiren, çeviri destekli frontend site.  
-   _Teknolojiler_: HTML, CSS, JavaScript, JSON (dil dosyaları)
+QR Code Generator & Scanner
+Convert text into QR codes and scan them with a webcam.
+Tech Stack: HTML, CSS, JavaScript, QRCode.js, WebRTC
 
-12. **Offline Not Alma Uygulaması / Offline Note App (PWA)**  
-   İnternet olmasa da çalışan, tarayıcıda saklanan not uygulaması.  
-   _Teknolojiler_: HTML, CSS, JavaScript, LocalStorage, PWA manifest
+CSS Animation Builder
+A visual tool for creating and previewing CSS animations.
+Tech Stack: HTML, CSS, JavaScript
 
-13. **Etkileşimli Sınav Uygulaması / Interactive Quiz App (Timed)**  
-   Süreli sorular içeren, kullanıcı yanıtlarını kontrol eden sınav sistemi.  
-   _Teknolojiler_: HTML, CSS, JavaScript
+Contact Directory App
+Add, filter, and delete contact information in a local directory.
+Tech Stack: HTML, CSS, JavaScript, LocalStorage
 
-14. **QR Kod Oluşturucu ve Okuyucu / QR Code Generator & Scanner**  
-   Metinleri QR koda çeviren ve kamerayla QR kod okuyabilen sistem.  
-   _Teknolojiler_: HTML, CSS, JavaScript, QRCode.js, WebRTC
+Drag & Drop File Uploader
+Upload files via drag-and-drop functionality in the browser.
+Tech Stack: HTML, CSS, JavaScript, FileReader API
 
-15. **CSS Animasyon Editörü / CSS Animation Editor**  
-   Kullanıcının görsel olarak animasyon oluşturabileceği canlı editör.  
-   _Teknolojiler_: HTML, CSS, JavaScript
+Real-time Multiplayer Score Game
+Two-player game with live score updates via WebSockets or Firebase.
+Tech Stack: HTML, CSS, JavaScript, WebSocket/Firebase
 
-16. **Rehber Uygulaması / Contact Directory App**  
-   Kişi listesi ekleme, filtreleme ve silme işlemlerini içeren uygulama.  
-   _Teknolojiler_: HTML, CSS, JavaScript, LocalStorage
+Encrypted Message Sender
+Send and receive messages securely using client-side encryption.
+Tech Stack: HTML, CSS, JavaScript, Crypto API
 
-17. **Drag & Drop Dosya Yükleyici / Drag & Drop File Uploader**  
-   Dosyaları sürükleyip bırakarak yüklemeye olanak tanıyan sistem.  
-   _Teknolojiler_: HTML, CSS, JavaScript, FileReader API
+Browser-based Screen Recorder
+Record and download screen captures directly from the browser.
+Tech Stack: HTML, CSS, JavaScript, MediaRecorder API
 
-18. **Gerçek Zamanlı Skor Tablolu Oyun / Real-time Score Game (2 Players)**  
-   İki oyunculu oyun mantığıyla skorların anlık güncellendiği sistem.  
-   _Teknolojiler_: HTML, CSS, JavaScript, WebSocket (veya Firebase)
+🧠 What You’ll Learn
+By completing these projects, you will:
 
-19. **Şifreli Mesaj Gönderici / Encrypted Message Sender**  
-   Kullanıcının mesajlarını şifreleyip güvenli ileten frontend uygulaması.  
-   _Teknolojiler_: HTML, CSS, JavaScript, Crypto API
+Solve real-world frontend challenges using vanilla JavaScript.
 
-20. **Tarayıcı Tabanlı Ekran Kaydedici / Browser-based Screen Recorder**  
-   Kullanıcının ekranını tarayıcı üzerinden video olarak kaydeden sistem.  
-   _Teknolojiler_: HTML, CSS, JavaScript, MediaRecorder API
+Gain practical experience with modern Web APIs.
 
----
+Improve your UI/UX design skills for real applications.
 
-## 🧠 Kazanımlar / Developer Takeaways
+Build offline-first (PWA) and real-time applications.
 
-Bu projeleri tamamlayan bir geliştirici:
+Get exposure to AI integration and data encryption techniques.
 
-- Gerçek dünya problemlerine yönelik çözümler üretmeyi öğrenir.
-- Modern Web API'lerini etkin şekilde kullanmayı deneyimler.
-- UI/UX duyarlılığı kazanır.
-- Offline-first (PWA), real-time (WebSocket, Firebase) ve sesli/görsel API’lerle tanışır.
-- Tamamen frontend üzerinden AI ve kriptografi gibi konulara giriş yapar.
-- Portföyünü profesyonel seviyeye çıkaracak 20 farklı ürün elde eder.
+Create 20 high-quality portfolio projects to showcase your expertise.
 
+📌 Ideal For
+Frontend developers looking to go beyond basics
+
+Students and self-learners aiming for real-world skills
+
+Developers preparing for frontend job interviews
 
